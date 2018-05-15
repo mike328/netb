@@ -15,5 +15,6 @@ public class Tester {
         CalculatoModel model = new CalculatoModel();
         new ClaculateConroler(view, model);
         view.setVisible(true);
+        System.out.prinln("What");
     }
-}
+}   
